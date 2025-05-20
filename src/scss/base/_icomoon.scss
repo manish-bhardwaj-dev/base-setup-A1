@@ -1,0 +1,120 @@
+@use "../utils/variables" as *;
+
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bfkqm2");
+  src:
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bfkqm2#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bfkqm2")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bfkqm2")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bfkqm2##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-browser-reload {
+  &:before {
+    content: $icon-browser-reload;
+    color: $pumpkin;
+  }
+}
+.icon-connect-circle {
+  &:before {
+    content: $icon-connect-circle;
+    color: $pumpkin;
+  }
+}
+.icon-currency-graph {
+  &:before {
+    content: $icon-currency-graph;
+    color: $pumpkin;
+  }
+}
+.icon-diamond-hand {
+  &:before {
+    content: $icon-diamond-hand;
+    color: $pumpkin;
+  }
+}
+.icon-dotted-circle-eye {
+  &:before {
+    content: $icon-dotted-circle-eye;
+    color: $pumpkin;
+  }
+}
+.icon-Facebook {
+  &:before {
+    content: $icon-Facebook;
+    color: $white;
+  }
+}
+.icon-graph-plot-mix {
+  &:before {
+    content: $icon-graph-plot-mix;
+    color: $pumpkin;
+  }
+}
+.icon-graph-plot-straight {
+  &:before {
+    content: $icon-graph-plot-straight;
+    color: $pumpkin;
+  }
+}
+.icon-skel-box {
+  &:before {
+    content: $icon-skel-box;
+    color: $pumpkin;
+  }
+}
+.icon-tower-signal {
+  &:before {
+    content: $icon-tower-signal;
+    color: $pumpkin;
+  }
+}
+.icon-Twitter {
+  &:before {
+    content: $icon-Twitter;
+    color: $white;
+  }
+}
+.icon-v-logo .path1 {
+  &:before {
+    content: $icon-v-logo-path1;
+    color: $white;
+  }
+}
+.icon-v-logo .path2 {
+  &:before {
+    content: $icon-v-logo-path2;
+    margin-left: -1.033203125em;
+    color: $white;
+  }
+}
+.icon-v-logo .path3 {
+  &:before {
+    content: $icon-v-logo-path3;
+    margin-left: -1.033203125em;
+    color: $pumpkin;
+  }
+}

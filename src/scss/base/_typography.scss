@@ -1,0 +1,7 @@
+@use "../utils/variables" as *;
+
+* {
+  font-family:
+    #{$roboto-font-family},
+    #{$sans-serif-font-family};
+}
